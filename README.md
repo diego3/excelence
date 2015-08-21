@@ -15,10 +15,10 @@ abra o arquivo httpd-vhost.conf no seu sistema operacional e adicione o seguinte
 
 ```html
 <VirtualHost *:80>
-     ServerName mydomain.local
-     DocumentRoot "path/to/my/project/public"
+     ServerName excelence.local
+     DocumentRoot "D:/var/www/excelence"
      SetEnv APPLICATION_ENV "development"
-     <Directory "path/to/my/project/public">
+     <Directory "D:/var/www/excelence/web">
          DirectoryIndex index.php
          AllowOverride All
          Order allow,deny
