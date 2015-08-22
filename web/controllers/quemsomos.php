@@ -1,7 +1,6 @@
 <?php
 
 $app->get("/quemsomos", function() use ($app){
-
-
-	return 'Somos uma empresa de tecnologia especializada em...';
+	$params = [];
+	return $app["mustache"]->render('quemsomos', $params);
 });

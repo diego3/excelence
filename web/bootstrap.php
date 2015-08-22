@@ -9,6 +9,7 @@ $app->register(new Mustache\Silex\Provider\MustacheServiceProvider, array(
     ),
 ));
 
+$app->register(new Silex\Provider\SessionServiceProvider());
 
 
 
@@ -17,4 +18,5 @@ $app->register(new Mustache\Silex\Provider\MustacheServiceProvider, array(
 require_once "controllers/home.php";
 require_once "controllers/quemsomos.php";
 require_once "controllers/trabalheconosco.php";
+require_once "controllers/admin.php";
 
