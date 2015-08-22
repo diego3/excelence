@@ -1,0 +1,21 @@
+{
+    
+    "require": {
+        "php": ">=5.5",
+        "silex/silex" : "~1.3",
+        "doctrine/dbal": "~2.2",
+        "symfony/validator": "~2.7.3",
+        "monolog/monolog": "~1.16.0",
+        "mustache/silex-provider": "~1.0"
+    },
+    
+    "require-dev": {
+       "phpunit/phpunit" : "4.5.*"
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "Excelence\\": "src/"
+        }
+    }
+}
