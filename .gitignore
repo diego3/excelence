@@ -12,3 +12,4 @@ cache.properties
 *local.php
 *local.ini
 /bin
+/web/resources/extraindo
