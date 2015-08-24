@@ -16,7 +16,7 @@ abra o arquivo httpd-vhost.conf no seu sistema operacional e adicione o seguinte
 ```html
 <VirtualHost *:80>
      ServerName excelence.local
-     DocumentRoot "D:/var/www/excelence"
+     DocumentRoot "D:/var/www/excelence/web"
      SetEnv APPLICATION_ENV "development"
      <Directory "D:/var/www/excelence/web">
          DirectoryIndex index.php

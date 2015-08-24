@@ -1,21 +1,11 @@
 <?php
+use Symfony\Component\HttpFoundation\Request;
 
-$app->get('/', function () use ($app) {
-	$params = [
-		'title' => 'Home',
-		'basePath' => PATH_RESOURCES 
-	];
-	
-	$template = "home";
-	return $app["mustache"]->render($template, $params);
+$app->get('/', function (Request $request) use ($app) {
+    $params = [
+        'title' => 'Home',
+        'basePath' => $request->getBasePath()
+    ];
+
+    return $app["mustache"]->render("home", $params);
 });
-
-function render($app, $template, $title, $params) {
-	$parameters = [
-		'title' => 'Home',
-		'basePath' => PATH_RESOURCES 
-	];
-	
-	$parameters = array_merge($parameters, $params);
-	return $app["mustache"]->render($template, $parameters);
-}
