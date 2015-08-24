@@ -11,7 +11,10 @@ body {
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .business-header {
-    height: 550px;
+    position: relative;
+    left: -25px;
+    /*width:120%;*/
+    height: 630px;
     /*background: url('http://placehold.it/1920x400') center center no-repeat scroll;*/
     background: url('../img/logo.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
