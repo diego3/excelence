@@ -13,15 +13,20 @@ body {
 .business-header {
     position: relative;
     left: -25px;
-    /*width:120%;*/
-    height: 400px;
-    /*background: url('http://placehold.it/1920x400') center center no-repeat scroll;*/
-    background: url('../img/logo.jpg') center center no-repeat scroll;
+    height: 380px;
+    background: /*url('../img/logo.jpg')*/ center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
+
+.shadow-separator {
+    box-shadow: 8px 6px 10px #999;
+    -moz-box-shadow: 8px 6px 10px #999;
+    -webkit-box-shadow: 8px 6px 10px #999;
+}
+
 
 /* Customize the text color and shadow color and to optimize text legibility. */
 
