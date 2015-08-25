@@ -14,7 +14,7 @@ body {
     position: relative;
     left: -25px;
     /*width:120%;*/
-    height: 630px;
+    height: 400px;
     /*background: url('http://placehold.it/1920x400') center center no-repeat scroll;*/
     background: url('../img/logo.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;

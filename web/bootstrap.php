@@ -1,5 +1,4 @@
 <?php
-
 //carregar servicoes e providers
 $app->register(new Mustache\Silex\Provider\MustacheServiceProvider, array(
     'mustache.path' => __DIR__ . '/view',
@@ -19,4 +18,6 @@ require_once "controllers/home.php";
 require_once "controllers/quemsomos.php";
 require_once "controllers/trabalheconosco.php";
 require_once "controllers/admin.php";
+require_once "controllers/slider.php";
+require_once "controllers/upload.php";
 
